@@ -1,6 +1,7 @@
 .titulo_div {
     display: flex;
     flex-direction: column;
+    place-items: center;
 }
 
 .titulo {
@@ -16,4 +17,22 @@
     padding: 15px;
     height: 300px;
     width: 600px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.bola{
+    height: 30px;
+    width: 30px;
+
+    border-radius: 50%;
+    box-shadow: gray 1px 2px;
+    margin-right: 2px;
+}
+
+.div_bolanome{
+ align-items: center;
+ display: flex;
+
 }
