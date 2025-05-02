@@ -1,11 +1,11 @@
-:root{
+:root {
 
-  
+
   font-family: 'Noto Serif Thai', sans-serif;
   font-size: 14px;
-  
-                                                
-                                                
+
+
+
 }
 
 body {
@@ -13,4 +13,3 @@ body {
   background-color: rgb(255, 231, 202);
   place-items: center;
 }
-
