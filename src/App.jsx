@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Post from './Components/post'
 import ButtonAlert from './Components/ButtonAlert'
@@ -27,7 +25,7 @@ function App() {
         <button onClick={() => setContador(contador + 1)}>Aumentar posts</button>
         <button onClick={() => setContador(contador - 1)}>Diminuir posts</button>
         <button onClick={() => alert('Agora você sabe mais')}>Saiba mais</button>
-        <ButtonAlert alerta={"alerta 1"} mensagem={"alerta 2"}/>
+        <ButtonAlert mensagem={"alerta 2"}> Alerta </ButtonAlert>
       </div>
 
 

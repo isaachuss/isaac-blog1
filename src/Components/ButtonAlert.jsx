@@ -1,9 +1,9 @@
 
-function ButtonAlert( {alerta, mensagem}  ) {
+function ButtonAlert({ mensagem, children }) {
     return (
 
         <div>
-            <button onClick={() => alert(mensagem)}>{alerta}</button>
+            <button onClick={() => alert(mensagem)}>{children}</button>
 
         </div>
 
